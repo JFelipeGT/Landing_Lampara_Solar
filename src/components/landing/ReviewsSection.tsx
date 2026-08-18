@@ -1,53 +1,53 @@
 import { Star, BadgeCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import review1 from "@/assets/review-1.png";
-import review2 from "@/assets/review-2.png";
-import review3 from "@/assets/review-3.png";
-import review4 from "@/assets/review-4.png";
-import review5 from "@/assets/review-5.png";
-import review6 from "@/assets/review-6.png";
+import review1 from "@/assets/review1.jpg";
+import review2 from "@/assets/review2.jpg";
+import review3 from "@/assets/review3.jpg";
+import review4 from "@/assets/review4.jpg";
+import review5 from "@/assets/review5.jpg";
+import review6 from "@/assets/review6.jpg";
 
 const reviews = [
   {
     name: "Natalia Lopez",
     city: "Segovia - Antioquia",
     stars: 5,
-    comment: "Me llegó rapidísimo y funciona perfecto. Ya lo usé dos veces con mi carro y todo bien.",
+    comment: "Sinceramente, me sorprendió mucho. El precio era bastante bueno, así que no esperaba que la calidad fuera tan alta. Estas luces brillan mucho y el sensor de movimiento responde muy bien y siempre está en su punto. Fueron fáciles de instalar y, según el vídeo, se puede ver realmente lo brillantes que son. Gran calidad en general y una excelente relación calidad-precio.",
     image: review1,
   },
   {
     name: "Carlos Mendez",
     city: "Bogotá",
     stars: 5,
-    comment: "Excelente producto, fácil de usar y llegó antes de lo esperado.",
+    comment: "Instalé estas luces solares en mi patio y han superado mis expectativas. Se cargan bien durante el día y brillan mucho por la noche cuando detectan movimiento. Los tres paneles ajustables ayudan a cubrir un área más amplia, haciendo que el patio parezca más seguro y bien iluminado. La instalación fue sencilla y, hasta ahora, han resistido la lluvia sin problemas. Estoy muy satisfecho con la compra y sin duda los recomendaría.",
     image: review2,
   },
   {
     name: "Juan García",
     city: "Barranquilla",
     stars: 5,
-    comment: "Lo compré con desconfianza pero me sorprendió. El pago contraentrega me dio confianza, tal cual las imagenes y videos.",
+    comment: "Estoy muy impresionado con la facilidad con la que pude instalar estas luces detectoras de movimiento solares. Y funcionan como se describe. Se los recomendaría a cualquiera que necesite iluminar un área oscura alrededor de su casa.",
     image: review3,
   },
   {
     name: "Santiago Tique ",
     city: "Armenia - Quindío",
     stars: 5,
-    comment: "Súper práctico, lo llevo siempre en la moto. Tiene varias funciones más alla de solo inflar llantas.",
+    comment: "¡Los pedí hace meses y hasta ahora son geniales! La luz se extiende por todo el patio. ¡Se ven bien en el garaje y funcionan mejor que la luz que había en mi casa cuando la construí!",
     image: review4,
   },
   {
     name: "Diego Castaño",
     city: "Cali",
     stars: 5,
-    comment: "El mejor compresor para su precio. Lo usé con la camioneta y me resolvio en minutos a pesar de lo grande jaja.",
+    comment: "Me encantan estas luces solares. ¡Fácil de instalar y proporciona una gran luz!",
     image: review5,
   },
   {
     name: "Laura G.",
     city: "Medellín",
     stars: 5,
-    comment: "Me encantó. Es pequeño y potente. Recomendados.",
+    comment: "Luces solares muy prácticas para patios, entradas, garajes o zonas oscuras. Los 3 cabezales permiten cubrir mejor el área, el sensor de movimiento ayuda a ahorrar energía y los 3000 LM ofrecen buena iluminación. Al ser solares y resistentes al agua, son cómodas para uso exterior diario.",
     image: review6,
   },
 ];
